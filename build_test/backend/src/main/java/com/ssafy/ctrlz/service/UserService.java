@@ -1,8 +1,13 @@
 package com.ssafy.ctrlz.service;
 
 import java.util.Optional;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
+
 import com.ssafy.ctrlz.model.User;
+import com.ssafy.ctrlz.repository.UserRepository;
+
 
 public interface UserService {
 	//회원가입 기능 
